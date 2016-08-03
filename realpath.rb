@@ -8,7 +8,7 @@ class Realpath < Formula
   homepage 'https://github.com/harto/realpath-osx'
   url 'https://github.com/iveney/realpath-osx.git'
   head 'https://github.com/iveney/realpath-osx.git'
-  sha1 '4d4e0b1bc7a491e69270a8ef7c809eb9c8874f00'
+  sha256 '4d4e0b1bc7a491e69270a8ef7c809eb9c8874f00'
 
   def install
     system "make"
