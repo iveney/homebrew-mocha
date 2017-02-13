@@ -6,7 +6,7 @@ require 'formula'
 class Pacparser < Formula
   homepage 'https://code.google.com/p/pacparser/'
   url 'https://pacparser.googlecode.com/files/pacparser-1.3.0.tar.gz'
-  sha1 'e738378e2522fba83b2ca7082d222b0a479b32b0'
+  sha256 '8acf0e181ccaddc5d0b13f39944346b56906e76ef1e8ed4b2186366c3d38a3a0'
   head 'https://code.google.com/p/pacparser'
 
   depends_on 'python' if build.include? 'with-python'
